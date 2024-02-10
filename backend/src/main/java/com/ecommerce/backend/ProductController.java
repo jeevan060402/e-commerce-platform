@@ -11,6 +11,7 @@ import java.util.UUID;
 @RestController
 @RequestMapping("/products")
 public class ProductController {
+	
 
     private final Map<String, Product> productMap = new HashMap<>();
 
